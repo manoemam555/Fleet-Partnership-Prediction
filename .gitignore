@@ -1,0 +1,42 @@
+# Data files (Kaggle competition data - should not be shared publicly)
+*.csv
+*.xlsx
+*.json
+!requirements.txt
+
+# Specific known files
+train.csv
+test.csv
+submission.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts (usually large, shouldn't be in git)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Logs
+*.log
